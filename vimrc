@@ -14,3 +14,6 @@ set tabstop=4 expandtab shiftwidth=4 softtabstop=4 autoindent
 " Code folding
 set foldmethod=indent
 set foldlevel=99
+
+" Mapeia Ctrl-f para exibir árvore de diretórios/arquivos
+map <C-f> :NERDTreeToggle<CR>
