@@ -9,6 +9,8 @@ set title
 " Habilita highlight de código automático
 syntax on
 
+set tabstop=4 expandtab shiftwidth=4 softtabstop=4 autoindent
+
 " Code folding
 set foldmethod=indent
 set foldlevel=99
