@@ -9,3 +9,6 @@ set title
 " Habilita highlight de código automático
 syntax on
 
+" Code folding
+set foldmethod=indent
+set foldlevel=99
