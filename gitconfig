@@ -1,0 +1,20 @@
+[user]
+	name = Renne Rocha
+	email = rennerocha@gmail.com
+
+[alias]
+    co = checkout
+    ci = commit
+    st = status
+    br = branch
+    ps = push
+    hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+    type = cat-file -t
+    dump = cat-file -p
+
+[core]
+	filemode = false
+
+[color]
+	status = auto
+	diff = auto
