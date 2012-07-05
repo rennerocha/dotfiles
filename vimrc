@@ -17,3 +17,11 @@ set foldlevel=99
 
 " Mapeia Ctrl-f para exibir árvore de diretórios/arquivos
 map <C-f> :NERDTreeToggle<CR>
+
+" Bubbling text - http://vimcasts.org/episodes/bubbling-text/
+" Bubble single lines
+nmap <C-Up> ddkP
+nmap <C-Down> ddp
+" Bubble multiple lines
+vmap <C-Up> xkP`[V`]
+vmap <C-Down> xp`[V`]
