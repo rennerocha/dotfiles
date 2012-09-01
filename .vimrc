@@ -1,5 +1,7 @@
 " Configurações vim
 
+call pathogen#infect()
+
 " Numeração de linhas automática
 set number
 
