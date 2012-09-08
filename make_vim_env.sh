@@ -10,6 +10,10 @@ cd ~/.vim/bundle
 rm -rf nerdtree
 git clone https://github.com/scrooloose/nerdtree.git
 
+cd ~/.vim/bundle
+rm -rf snipmate.vim
+git clone git://github.com/msanders/snipmate.vim.git
+
 # Atualiza .vimrc
 curl -so ~/.vimrc \
     https://raw.github.com/rennerocha/dotfiles/master/.vimrc
