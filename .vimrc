@@ -13,6 +13,10 @@ syntax on
 
 set tabstop=4 expandtab shiftwidth=4 softtabstop=4 autoindent
 
+" Open a new Tab
+nnoremap <C-t> :tabnew<CR>
+inoremap <C-t> <Esc>:tabnew<CR>
+
 " Code folding
 set foldmethod=indent
 set foldlevel=99
