@@ -1,5 +1,8 @@
 #!/bin/sh
 
+# This link contains interestings plugins and tips for vim - must test!
+# http://sontek.net/blog/detail/turning-vim-into-a-modern-python-ide
+
 # Install pathogen plugin (https://github.com/tpope/vim-pathogen)
 mkdir -p ~/.vim/autoload ~/.vim/bundle; \
 curl -so ~/.vim/autoload/pathogen.vim \
