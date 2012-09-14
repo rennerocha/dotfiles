@@ -17,3 +17,7 @@ git clone git://github.com/msanders/snipmate.vim.git
 # Atualiza .vimrc
 curl -so ~/.vimrc \
     https://raw.github.com/rennerocha/dotfiles/master/.vimrc
+
+# Adiciona snippets Python personalizados
+cat my.python.snippets >> ~/.vim/bundle/snipmate.vim/snippets/python.snippets
+
