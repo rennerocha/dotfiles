@@ -37,3 +37,6 @@ vmap <C-Down> xp`[V`]
 set foldmethod=indent
 set foldlevel=99
 
+filetype on
+filetype plugin on
+
