@@ -9,18 +9,20 @@ curl -so ~/.vim/autoload/pathogen.vim \
     https://raw.github.com/tpope/vim-pathogen/master/autoload/pathogen.vim
 
 # Install NERDTree (https://github.com/scrooloose/nerdtree)
-cd ~/.vim/bundle
-rm -rf nerdtree
-git clone https://github.com/scrooloose/nerdtree.git
+rm -rf ~/.vim/bundle/nerdtree
+git clone https://github.com/scrooloose/nerdtree.git ~/.vim/bundle/nerdtree
 
-cd ~/.vim/bundle
-rm -rf snipmate.vim
-git clone git://github.com/msanders/snipmate.vim.git
+rm -rf ~/.vim/bundle/snipmate.vim 
+git clone git://github.com/msanders/snipmate.vim.git ~/.vim/bundle/snipmate.vim
+
+# Install pep8 Validation
+rm -rf ~/.vim/bundle/pep8
+git clone git://github.com/vim-scripts/pep8.git ~/.vim/bundle/pep8
 
 # Atualiza .vimrc
 curl -so ~/.vimrc \
     https://raw.github.com/rennerocha/dotfiles/master/.vimrc
 
 # Adiciona snippets Python personalizados
-cat my.python.snippets >> ~/.vim/bundle/snipmate.vim/snippets/python.snippets
+cat ./my.python.snippets >> ~/.vim/bundle/snipmate.vim/snippets/python.snippets
 
