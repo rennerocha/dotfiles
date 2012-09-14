@@ -33,3 +33,7 @@ nmap <C-Down> ddp
 " Bubble multiple lines
 vmap <C-Up> xkP`[V`]
 vmap <C-Down> xp`[V`]
+
+set foldmethod=indent
+set foldlevel=99
+
