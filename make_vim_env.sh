@@ -23,7 +23,7 @@ git clone git://github.com/vim-scripts/pep8.git ~/.vim/bundle/pep8
 # Install pyflakes plugin
 # Necessário instalar aplicação pyflakes 
 rm -rf ~/.vim/bundle/pyflakes-pathogen
-git clone git://github.com/mitechie/pyflakes-pathogen.git
+git clone git://github.com/mitechie/pyflakes-pathogen.git ~/.vim/bundle/pyflakes-pathogen
 
 # Atualiza .vimrc
 curl -so ~/.vimrc \
