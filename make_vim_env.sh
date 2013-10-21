@@ -25,6 +25,10 @@ git clone git://github.com/vim-scripts/pep8.git ~/.vim/bundle/pep8
 rm -rf ~/.vim/bundle/pyflakes-pathogen
 git clone git://github.com/mitechie/pyflakes-pathogen.git ~/.vim/bundle/pyflakes-pathogen
 
+# Install quicktask plugin
+rm -rf ~/.vim/bundle/quickstart
+git clone https://github.com/aaronbieber/quicktask.git ~/.vim/bundle/quicktask
+
 # Atualiza .vimrc
 curl -so ~/.vimrc \
     https://raw.github.com/rennerocha/dotfiles/master/.vimrc
