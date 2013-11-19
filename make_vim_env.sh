@@ -36,3 +36,9 @@ curl -so ~/.vimrc \
 # Adiciona snippets Python personalizados
 cat ./my.python.snippets >> ~/.vim/bundle/snipmate.vim/snippets/python.snippets
 
+# Virtualenvwrapper settings
+mkdir -p $HOME/projects/
+echo "export WORKON_HOME=$HOME/.virtualenvs" >> ~/.profile
+echo "export PROJECT_HOME=$HOME/projects" >> ~/.profile
+echo "source /usr/local/bin/virtualenvwrapper.sh" >> ~/.profile
+
